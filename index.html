@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Letter Grades</title>
+  </head>
+  <body>
+    <form class="grades" action="index.html" method="post">
+        <h3>Enter a number grade (0-100)</h3>
+        <input type="number" name="numGrade" id="numGrade" min=0 max=100 required>
+        <input type="submit" name="Letter Grade" id="showLetterBtn"><br>
+        <div id="show-letter">
+
+        </div>
+    </form>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="simple.js" charset="utf-8"></script>
+  </body>
+</html>
